@@ -1,0 +1,27 @@
+name: "ChatSystem"
+main: net.emeraldgames.chatsystem.ChatSystem
+version: 1.0.14
+api: [1.0.0]
+author: "XCPLS"
+
+commands:
+  chat:
+    permission: chat.chat
+    description: "ChatSystem Command"
+    usage: "/chat <args>"
+  cs:
+    permission: chat.cs
+    description: "ChatSystem Command"
+    usage: "/cs <args>"
+  cg:
+    permission: chat.cg
+    description: "ChatSystem Command"
+    usage: "/cg <args>"
+
+permissions:
+  chat.chat:
+    default: true
+  chat.cs:
+    default: true
+  chat.cg:
+    default: true
